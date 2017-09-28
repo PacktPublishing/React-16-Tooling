@@ -1,2 +1,2 @@
-# React-Tooling
+# React Tooling
 React Tooling, by Packt
