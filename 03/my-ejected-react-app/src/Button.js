@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 class Button extends Component {
-  style = {
-    fontWeight: 'bold'
-  }
+  style = {}
 
   state = {
     count: 0
