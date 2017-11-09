@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
-class Button extends Component {
-  style = {}
+const style = {
+  fontWeight: 'bold'
+};
 
+class Button extends Component {
   state = {
     count: 0
   }
@@ -13,10 +15,7 @@ class Button extends Component {
 
   render() {
     const { count } = this.state;
-    const {
-      onClick,
-      style
-    } = this;
+    const { onClick } = this;
 
     return (
       <button {...{ onClick, style }}>

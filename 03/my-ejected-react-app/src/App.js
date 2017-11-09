@@ -10,7 +10,7 @@ class App extends Component {
         <Heading>
           My App Heading
         </Heading>
-        <Button/>
+        <Button />
       </div>
     );
   }
