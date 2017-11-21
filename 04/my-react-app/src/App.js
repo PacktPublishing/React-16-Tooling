@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import Repeat from './Repeat';
+import Repeat from './Repeat';
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
+          <Repeat times="5" value="React!" />
         </p>
       </div>
     );
