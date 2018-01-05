@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Person from './Person';
+import Container from './Container';
 
 class App extends Component<{}> {
   render() {
@@ -12,7 +12,7 @@ class App extends Component<{}> {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <Person person={{ name: 'Roger', age: 20 }} />
+        <Container />
       </div>
     );
   }
