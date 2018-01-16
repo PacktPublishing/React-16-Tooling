@@ -1,0 +1,14 @@
+{
+  "name": "installing-and-configuring-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Adam Boduch",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  }
+}
