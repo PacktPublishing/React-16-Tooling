@@ -1,7 +1,7 @@
 import React from 'react';
 
-const MyComponent = ({ onClick }) => (
+const MyButton = ({ onClick }) => (
   <button onClick={onClick}>My Button</button>
 );
 
-export default MyComponent;
+export default MyButton;
