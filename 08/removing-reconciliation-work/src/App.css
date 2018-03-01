@@ -1,0 +1,9 @@
+.App {
+  margin: 3em;
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
