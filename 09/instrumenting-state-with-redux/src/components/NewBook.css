@@ -1,0 +1,16 @@
+.NewBook {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewBook > label {
+  width: 300px;
+  margin: 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NewBook > button {
+  width: 40%;
+  align-self: center;
+}

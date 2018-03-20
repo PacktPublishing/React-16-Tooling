@@ -1,0 +1,13 @@
+.Book {
+  width: 170px;
+  min-height: 300px;
+}
+
+.Book > img {
+  height: auto;
+  width: 150px;
+}
+
+.Book > header {
+  height: 70px;
+}
