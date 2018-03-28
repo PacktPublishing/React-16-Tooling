@@ -1,0 +1,8 @@
+[
+  { "topic": "global", "title": "Global Article 1" },
+  { "topic": "global", "title": "Global Article 2" },
+  { "topic": "local", "title": "Local Article 1" },
+  { "topic": "local", "title": "Local Article 2" },
+  { "topic": "sports", "title": "Sports Article 1" },
+  { "topic": "sports", "title": "Sports Article 2" }
+]
