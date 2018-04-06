@@ -1,0 +1,15 @@
+api:
+  image: barely-sms-api
+  expose:
+    - 3001
+  ports:
+    - "3001:3001"
+
+ui:
+  image: barely-sms-ui
+  expose:
+    - 80
+  links:
+    - api
+  ports:
+    - "3000:80"
