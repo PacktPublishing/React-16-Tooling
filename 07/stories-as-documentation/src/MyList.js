@@ -7,7 +7,7 @@ const Empty = ({ items, children }) =>
 const MyList = ({ items }) => (
   <section>
     <Empty items={items}>No items found</Empty>
-    <ul>{items.map((v, i) => <li>{v}</li>)}</ul>
+    <ul>{items.map((v, i) => <li key={i}>{v}</li>)}</ul>
   </section>
 );
 
