@@ -10,21 +10,18 @@ describe('readFile', () => {
       cb(false);
     });
 
-    return readFile('file.txt')
-      .then(() => {
-        expect(fs.readFile).toHaveBeenCalled();
-      });
+    return readFile('file.txt').then(() => {
+      expect(fs.readFile).toHaveBeenCalled();
+    });
   });
 
-  it('resoves a value', () => {
+  it('resolves a value', () => {
     fs.readFile.mockReset();
     fs.readFile.mockImplementation((path, cb) => {
       cb(false, 'test');
     });
 
-    return expect(readFile('file.txt'))
-      .resolves
-      .toBe('test');
+    return expect(readFile('file.txt')).resolves.toBe('test');
   });
 
   it('rejects on error', () => {
@@ -33,8 +30,6 @@ describe('readFile', () => {
       cb('failed');
     });
 
-    return expect(readFile())
-      .rejects
-      .toBe('failed');
+    return expect(readFile()).rejects.toBe('failed');
   });
 });

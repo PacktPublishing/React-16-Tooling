@@ -20,7 +20,7 @@ describe('approximate equality', () => {
     expect(1).not.toBeFalsy();
   });
 
-  it('\'\' is falsey', () => {
+  it("'' is falsy", () => {
     expect('').toBeFalsy();
     expect('').not.toBeTruthy();
   });
@@ -33,7 +33,7 @@ describe('value equality', () => {
       two: 2
     }).toEqual({
       one: 1,
-      two: 2,
+      two: 2
     });
 
     expect({
